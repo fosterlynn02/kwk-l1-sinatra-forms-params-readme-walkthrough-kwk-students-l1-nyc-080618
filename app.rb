@@ -15,6 +15,13 @@ class ApplicationController < Sinatra::Base
     return erb :food_form 
   end
   
-    get 
+    get '/shows'
+    return erb :shows
+  end 
+  
+  get '/'
+  
+  
+  
   
 end
