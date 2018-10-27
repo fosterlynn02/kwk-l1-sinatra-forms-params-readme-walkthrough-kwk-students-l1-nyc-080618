@@ -11,8 +11,8 @@ class ApplicationController < Sinatra::Base
     return erb :index
   end
   
-    get '/events' do
-    return erb :tv_shows
+    get '/food_form' do
+    return erb :food_form 
   end
   
     
